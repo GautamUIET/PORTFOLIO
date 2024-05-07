@@ -307,7 +307,7 @@ import {
       ],
       image: Portfolio,
       source_code_link: "https://github.com/HarshitUIET/HarshitPortfolio",
-      live_demo_link: "https://harshitportfolio.netlify.app/",
+      live_demo_link: "https://harshitportfolio12.netlify.app/",
     }
   ];
   
