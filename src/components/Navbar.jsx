@@ -95,6 +95,9 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+               <li className='hover:text-white text-secondary text-[18px] font-medium cursor-pointer' >
+                <a href="cv/resume14f.pdf" download>Download CV</a>
+              </li>
             </ul>
           </div>
         </div>
