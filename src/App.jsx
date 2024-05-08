@@ -10,11 +10,12 @@ import Feedbacks from './components/Feedbacks'
 import Contact from './components/Contact'
 import Stars from './components/canvas/Stars'
 
-
+import { useMediaQuery } from 'react-responsive'
 
 
 const App = () => {
 
+  const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
 
   return (
     <BrowserRouter>
@@ -29,7 +30,9 @@ const App = () => {
       <Works/>
       <div className='relative z-0'>
         <Contact/>
-        <Stars/>
+        {
+          !isMobile && <Stars/>
+        }
       </div>
     </div>
     </BrowserRouter>

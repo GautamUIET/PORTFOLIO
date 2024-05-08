@@ -7,12 +7,17 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utilis/motion";
 
+import {useMediaQuery} from "react-responsive";
+
 // template_j6t6wmp
 // service_3wdzl1m
 // 57v0HSa3v43fi4TYP
 
 
 const Contact = () => {
+
+  const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
+
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -130,12 +135,11 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-        <EarthCanvas />
-      </motion.div>
+       {
+ 
+        !isMobile && <EarthCanvas/>
+
+       }
     </div>
   );
 };
