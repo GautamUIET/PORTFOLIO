@@ -1,35 +1,32 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+} from "../assets";
 
-  import HarshitBlogs from "../assets/HarshitBlogs.png";
-  import ShoppingCart from "../assets/ShoppingCart.png";
-  import TopCourses from "../assets/TopCourses.png";
-  import StudyNotion from "../assets/StudyNotion.png";
-  import Portfolio from "../assets/Portfolio.png";
+import { HarshitBlogs, ShoppingCart, TopCourses, StudyNotion, Portfolio } from "../assets";
+
   
   export const navLinks = [
     {

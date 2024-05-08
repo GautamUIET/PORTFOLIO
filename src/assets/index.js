@@ -30,6 +30,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import HarshitBlogs from "./HarshitBlogs.jpg";
+
+import TopCourses from "./TopCourses.jpg";
+import StudyNotion from "./StudyNotion.jpg";
+import Portfolio from "./Portfolio.jpg";
+
+import ShoppingCart from "./ShoppingCart.jpg";
+
 export {
   logo,
   backend,
@@ -59,4 +67,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  HarshitBlogs,
+  TopCourses,
+  StudyNotion,
+  Portfolio,
+  ShoppingCart
 };
