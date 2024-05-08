@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -38,6 +38,32 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
+  const [isLaptopScreen, setIsLaptopScreen] = useState(true);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 1200px)");
+
+    setIsLaptopScreen(!mediaQuery.matches);
+
+    const handleMediaQueryChange = (event) => {
+      setIsLaptopScreen(!event.matches);
+    };
+
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
+  if (!isLaptopScreen) {
+    return (
+      <div className='w-28 h-28'>
+        <img src={icon} alt='technology_icon' className='w-full h-full' />
+      </div>
+    )// Do not render for mobile devices
+  }
+
   return (
     <Canvas
       frameloop='demand'
