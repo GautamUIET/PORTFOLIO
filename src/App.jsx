@@ -12,7 +12,10 @@ import Stars from './components/canvas/Stars'
 
 
 
+
 const App = () => {
+
+
   return (
     <BrowserRouter>
     <div className='relative z-0 bg-primary'>

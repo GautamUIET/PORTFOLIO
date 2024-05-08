@@ -22,7 +22,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 import { HarshitBlogs, ShoppingCart, TopCourses, StudyNotion, Portfolio } from "../assets";
@@ -99,10 +98,6 @@ import { HarshitBlogs, ShoppingCart, TopCourses, StudyNotion, Portfolio } from "
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
