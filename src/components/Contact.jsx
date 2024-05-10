@@ -7,7 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utilis/motion";
 
-import {useMediaQuery} from "react-responsive";
+import { useMediaQuery } from "react-responsive";
 
 // template_j6t6wmp
 // service_3wdzl1m
@@ -54,7 +54,7 @@ const Contact = () => {
           to_email: "harshitpachauri76@gmail.com",
           message: form.message,
         },
-       '57v0HSa3v43fi4TYP'
+        '57v0HSa3v43fi4TYP'
       )
       .then(
         () => {
@@ -135,11 +135,19 @@ const Contact = () => {
         </form>
       </motion.div>
 
-       {
- 
-        !isMobile && <EarthCanvas/>
+      {
+        !isMobile && (
+          <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+      >
+           <EarthCanvas />
+      </motion.div>
+        )
+      }
 
-       }
+      
+
     </div>
   );
 };
