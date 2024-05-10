@@ -37,6 +37,7 @@ import StudyNotion from "./StudyNotion.jpg";
 import Portfolio from "./Portfolio.jpg";
 
 import ShoppingCart from "./ShoppingCart.jpg";
+import fullstack_ecom from "./fullstack_ecom.jpg";
 
 export {
   logo,
@@ -70,5 +71,6 @@ export {
   TopCourses,
   StudyNotion,
   Portfolio,
-  ShoppingCart
+  ShoppingCart,
+  fullstack_ecom,
 };
