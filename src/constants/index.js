@@ -1,30 +1,24 @@
 import {
-  mobile,
   backend,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  git,
+  html,
+  javascript,
+  mobile,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
+  typescript,
+  web,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  Next,
+  fastapi
 } from "../assets";
 
-import { HarshitBlogs, ShoppingCart, TopCourses, StudyNotion, Portfolio,fullstack_ecom } from "../assets";
+import { Chattu, HarshitBlogs, Portfolio, ShoppingCart, StudyNotion, TopCourses, fixit2, fullstack_ecom } from "../assets";
 
 
 export const navLinks = [
@@ -103,59 +97,34 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name : "docker",
+    icon : docker,
+  },
+  {
+    name : "Next JS",
+    icon : Next,
+  },
+  {
+    name : "Fast API",
+    icon : fastapi
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full Stack Developer",
+    company_name: "fiXit",
+    icon: fixit2,
+    iconBg: "#ffffff",
+    date: "June 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained the frontend using Next.js.",
+      "Built and optimized the backend using FastAPI.",
+      "Analyzed customer calls to determine interest in purchasing products.",
+      "Worked with data analytics and machine learning models to provide actionable insights for sales improvement.",
+      "Collaborated with cross-functional teams to enhance sales strategies.",
+      "Implemented and maintained APIs for data integration and processing."
     ],
   },
 ];
@@ -188,6 +157,43 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Chattu",
+    description: "Built a full stack online chat application employing Express.js for the server, MongoDB for data storage, and React.js for the client-side interface. The backend functionalities include chat management, group features, and user authentication with JWT tokens, dynamic file uploads facilitated by Multer, and real-time communication with Socket.io. The system supports user signup and login, while an admin panel enables viewing data related to messages, charts, and users.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "mui",
+        color: "pink-text-gradient"
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient"
+      },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient"
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient"
+      },
+      {
+        name: "socket.io",
+        color: "yellow-text-gradient"
+      }
+    ],
+    image: Chattu, // Replace with the actual path to your image
+    source_code_link: "https://github.com/HarshitUIET/OnlineChat",
+    live_demo_link: "https://online-chat-nu.vercel.app/",
+  },
   {
     name: "E-Commerce Website",
     description:
@@ -338,4 +344,4 @@ const projects = [
   }
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };

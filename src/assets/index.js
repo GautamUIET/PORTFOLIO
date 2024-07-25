@@ -38,6 +38,12 @@ import Portfolio from "./Portfolio.jpg";
 
 import ShoppingCart from "./ShoppingCart.jpg";
 import fullstack_ecom from "./fullstack_ecom.jpg";
+import Chattu from "./Chattu.png";
+import fixit from "./fixit.png";
+import fixit2 from './fixit2.png';
+
+import Next from "./Next.png";
+import fastapi from './fastapi.png';
 
 export {
   logo,
@@ -73,4 +79,9 @@ export {
   Portfolio,
   ShoppingCart,
   fullstack_ecom,
+  Chattu,
+  fixit,
+  fixit2,
+  Next,
+  fastapi
 };
