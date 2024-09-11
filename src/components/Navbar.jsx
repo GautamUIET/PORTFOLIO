@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
           ))}
           <li className='hover:text-white text-secondary text-[18px] font-medium cursor-pointer' >
-                <a href="cv/resume14f.pdf" download>Download CV</a>
+                <a href="cv/HarshitJuly24.pdf" download>Download CV</a>
               </li>
         </ul>
 
