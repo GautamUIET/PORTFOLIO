@@ -347,8 +347,8 @@ const projects = [
 
     ],
     image: image,
-    source_code_link: "https://github.com/HarshitUIET/HarshitPortfolio",
-    live_demo_link: "https://harshitportfolio12.netlify.app/",
+    source_code_link: "https://github.com/GautamUIET/PORTFOLIO/",
+    live_demo_link: "https://portfolio-gamma-coral-74.vercel.app/",
   }
 ];
 
