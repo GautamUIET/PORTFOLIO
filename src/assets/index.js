@@ -26,26 +26,26 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
-import HarshitBlogs from "./HarshitBlogs.jpg";
-
+import gautam_blogs from "./gautam_blogs.png";
+import image from "./image.png";
 import TopCourses from "./TopCourses.jpg";
 import StudyNotion from "./StudyNotion.jpg";
 import Portfolio from "./Portfolio.jpg";
-
-import ShoppingCart from "./ShoppingCart.jpg";
-import fullstack_ecom from "./fullstack_ecom.jpg";
-import Chattu from "./Chattu.png";
-import fixit from "./fixit.png";
-import fixit2 from './fixit2.png';
+import quiz_app from "./quiz_app.png";
+import real_estate from "./real_estate.png";
+import gemini_ai from "./gemini_ai.png";
+import Shopper from "./Shopper.png";
+import ecomzy from "./ecomzy.jpg";
+import wave_chat from "./wave_chat.png";
 
 import Next from "./Next.png";
-import fastapi from './fastapi.png';
+
 
 export {
+  image,
+  quiz_app,
+  real_estate,
+  threejs,
   logo,
   backend,
   creator,
@@ -68,20 +68,15 @@ export {
   typescript,
   meta,
   shopify,
+  gemini_ai,
   starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
-  HarshitBlogs,
+tesla,
+  gautam_blogs,
   TopCourses,
   StudyNotion,
   Portfolio,
-  ShoppingCart,
-  fullstack_ecom,
-  Chattu,
-  fixit,
-  fixit2,
+  ecomzy,
+  Shopper,
+  wave_chat,
   Next,
-  fastapi
 };

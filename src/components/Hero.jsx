@@ -17,15 +17,17 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient'>
           </div>
         </div>
-         <div>
-          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#915eff]'>Harshit</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          At 20, I'm already diving
-          
-          <br className='sm:block hidden' /> deep into the digital universe
-            <br className='sm:block hidden' /> , specializing in the MERN stack 
-          </p>
-         </div>
+        <div>
+  <h1 className={`${styles.heroHeadText}`}>
+    Hi, I'm <span className="text-[#915eff]">Gautam</span>
+  </h1>
+  <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+    At just 20, I'm navigating the digital cosmos, crafting seamless experiences in the MERN stack and Next.js.
+    <br className="sm:block hidden" /> With every line of code, I bring a touch of innovation and interactivity to the web.
+  </p>
+</div>
+
+
       </div>
 
      {

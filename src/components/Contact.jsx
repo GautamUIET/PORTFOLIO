@@ -9,10 +9,6 @@ import { slideIn } from "../utilis/motion";
 
 import { useMediaQuery } from "react-responsive";
 
-// template_j6t6wmp
-// service_3wdzl1m
-// 57v0HSa3v43fi4TYP
-
 
 const Contact = () => {
 
@@ -45,16 +41,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_3wdzl1m',
-        'template_j6t6wmp',
+        'service_4rbpysa',
+        'template_wkhy838',
         {
           from_name: form.name,
-          to_name: "Harshit Pachauri",
+          to_name: "Gautam Jain",
           from_email: form.email,
-          to_email: "harshitpachauri76@gmail.com",
+          to_email: "gautamjain09687@gmail.com",
           message: form.message,
         },
-        '57v0HSa3v43fi4TYP'
+        'weUSe1Dcp6iejV6L5'
       )
       .then(
         () => {

@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Harshit &nbsp;
+            Gautam &nbsp;
             <span className='sm:block hidden'> | 
             Full Stack Developer</span>
           </p>
@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
           ))}
           <li className='hover:text-white text-secondary text-[18px] font-medium cursor-pointer' >
-                <a href="cv/HarshitJuly24.pdf" download>Download CV</a>
+                <a href="cv/Gautam_uiet.pdf" download>Download CV</a>
               </li>
         </ul>
 
@@ -96,7 +96,7 @@ const Navbar = () => {
                 </li>
               ))}
                <li className='hover:text-white text-secondary text-[18px] font-medium cursor-pointer' >
-                <a href="cv/resume14f.pdf" download>Download CV</a>
+                <a href="cv/Gautam_uiet.pdf" download>Download CV</a>
               </li>
             </ul>
           </div>

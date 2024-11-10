@@ -15,10 +15,9 @@ import {
   web,
   docker,
   Next,
-  fastapi
 } from "../assets";
 
-import { Chattu, HarshitBlogs, Portfolio, ShoppingCart, StudyNotion, TopCourses, fixit2, fullstack_ecom } from "../assets";
+import { wave_chat, image, gemini_ai,ecomzy, gautam_blogs, Portfolio, StudyNotion, TopCourses, quiz_app, real_estate,Shopper } from "../assets";
 
 
 export const navLinks = [
@@ -105,26 +104,19 @@ const technologies = [
     name : "Next JS",
     icon : Next,
   },
-  {
-    name : "Fast API",
-    icon : fastapi
-  }
+
 ];
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "fiXit",
-    icon: fixit2,
+    title: "Web Developer",
+    company_name: "Infowiz Software Solutions",
     iconBg: "#ffffff",
-    date: "June 2024 - Present",
+    icon: git,
+    date: "June 2024 - July 2024",
     points: [
       "Developed and maintained the frontend using Next.js.",
-      "Built and optimized the backend using FastAPI.",
-      "Analyzed customer calls to determine interest in purchasing products.",
-      "Worked with data analytics and machine learning models to provide actionable insights for sales improvement.",
-      "Collaborated with cross-functional teams to enhance sales strategies.",
-      "Implemented and maintained APIs for data integration and processing."
+      "Built and optimized the backend using mongoDB and prisma",
     ],
   },
 ];
@@ -158,15 +150,15 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Chattu",
-    description: "Built a full stack online chat application employing Express.js for the server, MongoDB for data storage, and React.js for the client-side interface. The backend functionalities include chat management, group features, and user authentication with JWT tokens, dynamic file uploads facilitated by Multer, and real-time communication with Socket.io. The system supports user signup and login, while an admin panel enables viewing data related to messages, charts, and users.",
+    name: "Wave-Chat",
+    description: "Built a full stack online chat application employing Express.js for the server, Prisma and PostgresSQL for data storage, and Next.js for the client-side and server-side interface. The backend functionalities include chat management, group features, and user authentication with CLERK, dynamic file uploads facilitated by uploadthing, and real-time communication with Socket.io. The system supports user signup and login",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient"
       },
       {
-        name: "mui",
+        name: "Next.js",
         color: "pink-text-gradient"
       },
       {
@@ -182,7 +174,7 @@ const projects = [
         color: "pink-text-gradient"
       },
       {
-        name: "mongodb",
+        name: "Prisma",
         color: "green-text-gradient"
       },
       {
@@ -190,9 +182,9 @@ const projects = [
         color: "yellow-text-gradient"
       }
     ],
-    image: Chattu, // Replace with the actual path to your image
-    source_code_link: "https://github.com/HarshitUIET/OnlineChat",
-    live_demo_link: "https://online-chat-nu.vercel.app/",
+    image: wave_chat, // Replace with the actual path to your image
+    source_code_link: "https://github.com/GautamUIET/WAVE-CHAT",
+    live_demo_link: "https://wave-chat-zvdn.vercel.app/",
   },
   {
     name: "E-Commerce Website",
@@ -224,13 +216,13 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: fullstack_ecom,
-    source_code_link: "https://github.com/HarshitUIET/E-Commerce-full-stack",
-    live_demo_link: "https://e-commerce-full-stack-nine.vercel.app/",
-    admin_panel_link: "https://e-commerce-full-stack-wful.vercel.app/"
+    image: Shopper,
+    source_code_link: "https://github.com/GautamUIET/NEW_FULL_STACK",
+    live_demo_link: "https://new-full-stackfrontend.vercel.app/",
+    admin_panel_link: "https://new-full-stack.vercel.app"
   },
   {
-    name: "Harshit Blogs",
+    name: "Gautam Blogs",
     description:
       "Developed a blog website using React.js ,Implemented dynamic routing and navigation using React Router to display different pages and Utilized React Context API for state management..Implemented a pagination system allowing users to navigate through multiple pages of blog posts.",
     tags: [
@@ -247,10 +239,47 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: HarshitBlogs,
-    source_code_link: "https://github.com/HarshitUIET/BlogReact",
-    live_demo_link: "https://harshitblogreact.netlify.app/",
+    image: gautam_blogs,
+    source_code_link: "https://github.com/GautamUIET/BlogReact",
+    live_demo_link: "https://blog-react-cyan-xi.vercel.app/",
   },
+
+  {
+    name: "Gemini AI",
+    description: "A robust AI-powered web application that offers predictive analytics and insights. Built using  React.",
+    tags: [
+      { name: "react", color: "pink-text-gradient" },
+    ],
+    image: gemini_ai,
+    source_code_link: "https://github.com/GautamUIET/Gemini-Ai",
+    live_demo_link: "https://gemini-ai-lemon.vercel.app/",
+  },
+  {
+    name: "Real Estate App",
+    description: "Developed a real estate platform where users can browse, list, and filter properties. Built with the MERN stack, featuring a user-friendly UI and responsive design.",
+    tags: [
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "expressjs", color: "blue-text-gradient" },
+      { name: "react", color: "pink-text-gradient" },
+      { name: "nodejs", color: "blue-text-gradient" },
+    ],
+    image: real_estate,
+    source_code_link: "https://github.com/GautamUIET/MERN-real-estate",
+    live_demo_link: "https://mern-real-estate-ms1j.onrender.com/",
+  },
+  {
+    name: "Quiz App",
+    description: "An interactive quiz application built using React.js. Features include multiple question formats, score tracking, and responsive design for optimal user experience.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
+    ],
+    image: quiz_app,
+    source_code_link: "https://github.com/GautamUIET/Quiz_APP",
+    live_demo_link: "https://quiz-app-mjyh.vercel.app/",
+  },
+
   {
     name: "Shopping Cart",
     description:
@@ -270,32 +299,11 @@ const projects = [
       },
 
     ],
-    image: ShoppingCart,
-    source_code_link: "https://github.com/HarshitUIET/ShoppingCartReact",
-    live_demo_link: "https://harshitshoppingcartreact.netlify.app/",
+    image: ecomzy,
+    source_code_link: "https://github.com/GautamUIET/Shopping-cart",
+    live_demo_link: "https://shopping-cart-phi-coral.vercel.app/",
   },
-  {
-    name: "Top Courses",
-    description:
-      "Developed a online learning platform using React, integrating with a RESTful API,Utilized React useState and useE ect hooks.Implemented a category filter functionality allowing users to easily navigate and explore courses based on categories like Development, Business, Design, and Lifestyle.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-    ],
-    image: TopCourses,
-    source_code_link: "https://github.com/HarshitUIET/TopCourses",
-    live_demo_link: "https://topcoursesharshit.netlify.app/",
-  },
+  
   {
     name: "Study Notion",
     description:
@@ -312,7 +320,7 @@ const projects = [
 
     ],
     image: StudyNotion,
-    source_code_link: "https://github.com/HarshitUIET/StudyNotionRouter",
+    source_code_link: "https://github.com/GautamUIET/Study-notion",
     live_demo_link: "https://studynotionharshit.netlify.app/"
   },
   {
@@ -338,7 +346,7 @@ const projects = [
       }
 
     ],
-    image: Portfolio,
+    image: image,
     source_code_link: "https://github.com/HarshitUIET/HarshitPortfolio",
     live_demo_link: "https://harshitportfolio12.netlify.app/",
   }
