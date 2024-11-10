@@ -23,7 +23,7 @@ const Hero = () => {
   </h1>
   <p className={`${styles.heroSubText} mt-2 text-white-100`}>
     At just 20, I'm navigating the digital cosmos, crafting seamless experiences in the MERN stack and Next.js.
-    <br className="sm:block hidden" /> With every line of code, I bring a touch of innovation and interactivity to the web.
+  
   </p>
 </div>
 
